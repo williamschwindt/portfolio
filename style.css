@@ -236,11 +236,30 @@ header h2 {
     margin-bottom: 15px;
 }
 
+.project-info ul {
+    margin-bottom: 30px;
+}
+
 .project-info ul li{
     padding: 2.5px 0;
     list-style: circle;
 }
 
+.project-info a {
+    transition: .3s;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    background-color: #70c989;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.project-info a:hover {
+    transition: .3s;
+    background-color: #fff;
+    color: #70c989;
+}
 
 
 
