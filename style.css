@@ -226,7 +226,7 @@ header h2 {
 
 .projects-container2 {
     flex-direction: row-reverse;
-    margin-top: 150px;
+    margin: 150px 0;
 }
 
 .projects-container img,
