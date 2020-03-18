@@ -55,6 +55,8 @@ html {
     font-weight: 400;
     color: #fff;
     background-color: #1a1a1a;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .background-color {
@@ -66,36 +68,78 @@ html {
     border-radius: 10px;
 }
 
-.hero-img{
-    background-image: url(images/hero.jpg);
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/hero.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
-    filter: blur(4px);
+    background-attachment: fixed;
+    margin: 0 auto;
 }
 
-header {
+.main-text {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -150%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: left;
+    width: 90%;
+    line-height: 45px;
 }
 
-header {
-    color: #fff;
-    text-align: center;
+.navigation {
+    top: 0;
+    left: 0;
     width: 100%;
+    background-color: rgb(34, 34, 34);
+    font-size: 2rem;
+    position: fixed;
+    z-index: 1;
+    opacity: .95;
+    border-bottom: 1px solid #fff;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul a {
+    transition: .3s;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation ul a:hover {
+    color: #95d7a8;
+    transition: .3s;
+    cursor: pointer;
 }
 
 header h1 {
     letter-spacing: 2px;
-    font-weight: bold;
-    font-size: 6rem;
+    font-weight: 400;
+    font-size: 4rem;
     margin-bottom: 20px;
 }
 
 header h2 {
     font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+header h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+header h3 span {
+    text-decoration: underline;
+    color: #95d7a8;
 }
 
 .about-me {
