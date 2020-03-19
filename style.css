@@ -138,19 +138,14 @@ header h3 a {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding-bottom: 60px;
     padding-top: 20px;
-    text-align: center;
+    padding-bottom: 40px;
+    text-align: left;
 }
 
 .skills-section{
     background-color: rgb(29, 38, 45);
     padding: 100px 0;
-}
-
-#skills-h1 {
-    padding-bottom: 40px;
-    text-align: left;
 }
 
 .skills-container {
@@ -200,84 +195,44 @@ header h3 a {
 }
 
 .project-section{
-    padding: 150px 0;
+    padding: 100px 0;
     background-color: rgb(31, 41, 48);
 }
 
-.projects-container,
-.projects-container2 {
+.projects {
+    margin: 40px auto;
+    text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 40px 5%;
+    max-width: 1000px
 }
 
-.projects-container2 {
-    flex-direction: row-reverse;
-    margin: 150px 0;
+.project {
+    width: 500px;
+    margin: 0;
 }
 
-.projects-container img,
-.projects-container2 img {
-    width: 40%;
-    height: auto;
-    box-shadow: -20px -20px 10px #2A3840;
-    border: solid 1px white;
+#weather-app {
+    background-color: #3532cb;
 }
 
-.projects-container2 img {
-    box-shadow: 20px -20px 10px #2A3840;
+#droom {
+    background-color: #7851A9;
 }
 
-.projects-container .project-info {
-    margin-left: 100px;
+#omnifood {
+    background-color: #e67e22;
 }
 
-.projects-container2 .project-info {
-    margin-right: 100px;
+.project img {
+    opacity: 1;
+    width: 100%;
+    transition: opacity 0.5s;
 }
 
-.project-info h4 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-.project-info h5 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-    margin-top: 30px;
-    font-weight: 300;
-}
-
-.project-info p,
-.project-info ul {
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 15px;
-}
-
-.project-info ul {
-    margin-bottom: 30px;
-}
-
-.project-info ul li{
-    padding: 2.5px 0;
-    list-style: circle;
-}
-
-.project-info a {
-    transition: .3s;
-    text-decoration: none;
-    color: #fff;
-    font-size: 2rem;
-    background-color: #70c989;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
-
-.project-info a:hover {
-    transition: .3s;
-    background-color: #fff;
-    color: #70c989;
+.project img:hover {
+    opacity: .1;
 }
 
 
