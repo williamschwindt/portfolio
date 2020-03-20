@@ -215,6 +215,7 @@ header h3 a {
 }
 
 .project-info {
+    transition: .5s;
     opacity: 0;
     position: absolute;
     top: 30%;
@@ -225,6 +226,7 @@ header h3 a {
 }
 
 .tools-used {
+    transition: .5s;
     opacity: 0;
     position: absolute;
     top: 60%;
@@ -235,6 +237,7 @@ header h3 a {
 }
 
 .view-project {
+    transition: .5s;
     opacity: 0;
     position: absolute;
     top: 70%;
@@ -276,5 +279,6 @@ header h3 a {
 #omnifood:hover .tools-used,
 #omnifood:hover .view-project {
     opacity: 1;
+    transition: .5s;
 }
 
