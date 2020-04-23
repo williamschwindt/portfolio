@@ -241,13 +241,13 @@ header h3 a {
 }
 
 .skill-icon {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-right: 15px;
     color: #A3A2FF;
 }
 
 .tech-skill h3 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #A3A2FF;
 }
 
@@ -261,7 +261,7 @@ header h3 a {
 }
 
 .soft-skill h3 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 15px;
 }
 
@@ -295,10 +295,11 @@ header h3 a {
 }
 
 .project {
-    max-width: 500px;
+    max-width: 400px;
     margin: 0;
     position: relative;
     text-align: center;
+    height: 100%;
 }
 
 .project-info {
@@ -327,7 +328,7 @@ header h3 a {
     transition: .5s;
     opacity: 0;
     position: absolute;
-    top: 70%;
+    top: 72%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.6rem;
@@ -346,10 +347,15 @@ header h3 a {
     background-color: #e67e22;
 }
 
+#film {
+    background-color: rgb(48, 62, 255);
+}
+
 .project-image {
     opacity: 1;
     width: 100%;
     transition: opacity 0.5s;
+    object-fit: cover;
 }
 
 .project:hover .project-image{
@@ -364,7 +370,10 @@ header h3 a {
 #droom:hover .view-project,
 #omnifood:hover .project-info,
 #omnifood:hover .tools-used,
-#omnifood:hover .view-project {
+#omnifood:hover .view-project,
+#film:hover .project-info,
+#film:hover .tools-used,
+#film:hover .view-project {
     opacity: 1;
     transition: .5s;
 }
