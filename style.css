@@ -302,25 +302,14 @@ header h3 a {
     height: 100%;
 }
 
-.project-info {
+.project-name {
     transition: .5s;
     opacity: 0;
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2rem;
-    color: #fff;
-}
-
-.tools-used {
-    transition: .5s;
-    opacity: 0;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     color: #fff;
 }
 
@@ -351,6 +340,14 @@ header h3 a {
     background-color: rgb(48, 62, 255);
 }
 
+#conway {
+    background-color: #000000;
+}
+
+#sleep {
+    background-color: rgb(121, 188, 196);
+}
+
 .project-image {
     opacity: 1;
     width: 100%;
@@ -362,18 +359,18 @@ header h3 a {
     opacity: .05;
 }
 
-#weather-app:hover .project-info,
-#weather-app:hover .tools-used,
+#conway:hover .project-name,
+#conway:hover .view-project,
+#weather-app:hover .project-name,
 #weather-app:hover .view-project,
-#droom:hover .project-info,
-#droom:hover .tools-used,
+#droom:hover .project-name,
 #droom:hover .view-project,
-#omnifood:hover .project-info,
-#omnifood:hover .tools-used,
+#omnifood:hover .project-name,
 #omnifood:hover .view-project,
-#film:hover .project-info,
-#film:hover .tools-used,
-#film:hover .view-project {
+#film:hover .project-name,
+#film:hover .view-project,
+#sleep:hover .project-name,
+#sleep:hover .view-project {
     opacity: 1;
     transition: .5s;
 }
