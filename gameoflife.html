@@ -7,36 +7,41 @@
         <link rel="stylesheet" href="project.css">
     </head>
     <body>
-        <header>
-            <div class="navigation">
-                <ul>
-                    <a href="/index.html">Home</a>
-                    <a href="https://www.linkedin.com/in/william-schwindt-537527193/">LinkedIn</a>
-                    <a href="https://github.com/williamschwindt">Github</a>
-                </ul>
-            </div>
-        </header>
-        <section class="project-section">
-            <div class="project-image">
-                <img src="images/gameoflife.png" alt="gameoflife"/>
-                <h2>Technologies used:</h2>
-                <ul>
-                    <li>React.js</li>
-                    <li>Nes.css</li>
-                </ul>
-            </div>
-            <div class="project-info">
-                <h1 class="project-title">Conway's Game of Life</h1>
-                <p class="project-p">
-                    John Conway's famous game of cellular automaton recreated. The Game of Life consists of a grid
-                    of "dead" cells and two basic rules: <br> <br>1. If the cell is alive and has 2 or 3 neighbors, then it remains alive. Else it dies. <br> <br>
-                    2. If the cell is dead and has exactly 3 neighbors, then it comes to life. Else it remains dead.<br> <br>
-                    The evolution of the grid is determined by the initial state which can be set by premade or user created patterns. In my version
-                    of the algorithim two arrays are used: one to hold and display the current generation of cells, and one to calculate the next generation.
-                    The number of neighbors for each cell is counted and then the rules dictate wether that cell should live or die. The two arrays then switch roles and the whole cycle is repeated.
-                </p>
-            </div>
-        </section>
+        <div class="wrapper">
+            <header>
+                <div class="navigation">
+                    <ul>
+                        <a href="/index.html">Home</a>
+                        <a href="https://www.linkedin.com/in/william-schwindt-537527193/">LinkedIn</a>
+                        <a href="https://github.com/williamschwindt">Github</a>
+                    </ul>
+                </div>
+            </header>
+            <section class="project-section">
+                <div class="project-image">
+                    <img src="images/gameoflife.png" alt="gameoflife"/>
+                    <div class="project-image-info">
+                        <h2>Technologies used:</h2>
+                        <ul>
+                            <li>React.js</li>
+                            <li>Nes.css</li>
+                        </ul>
+                        <a href="https://conways-game-of-life-gamma.vercel.app/">View Project</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h1 class="project-title">Conway's Game of Life</h1>
+                    <p class="project-p">
+                        John Conway's famous game of cellular automaton recreated. The Game of Life consists of a grid
+                        of "dead" cells and two basic rules: <br> <br>1. If the cell is alive and has 2 or 3 neighbors, then it remains alive. Else it dies. <br> <br>
+                        2. If the cell is dead and has exactly 3 neighbors, then it comes to life. Else it remains dead.<br> <br>
+                        The evolution of the grid is determined by the initial state which can be set by premade or user created patterns. In my version
+                        of the algorithim two arrays are used: one to hold and display the current generation of cells, and one to calculate the next generation.
+                        The number of neighbors for each cell is counted and then the rules dictate wether that cell should live or die. The two arrays then switch roles and the whole cycle is repeated.
+                    </p>
+                </div>
+            </section>
+        </div>
         <footer>
             <p>Contact me <a href="mailto:williammschwindt@gmail.com?">williammschwindt@gmail.com</a></p>
             <div class="links">
