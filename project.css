@@ -57,12 +57,11 @@ html, body {
     background-color: rgb(29, 38, 45);
     width: 100%;
     margin: 0 auto;
-    height: 100%;
 }
 
 .wrapper {
-    min-height: 100%;
-    margin-bottom: 70px;
+    min-height: 70%;
+    margin-bottom: 10px;
 }
 
 .navigation {
@@ -109,6 +108,7 @@ html, body {
 
 .project-image img {
     width: 400px;
+    height: 206.391px;
     border: solid 1px #fff;
     margin-bottom: 20px;
 }
