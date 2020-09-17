@@ -107,8 +107,8 @@ html, body {
 }
 
 .project-image img {
-    width: 400px;
-    height: 206.391px;
+    max-width: 400px;
+    max-height: 206.391px;
     border: solid 1px #fff;
     margin-bottom: 20px;
 }
