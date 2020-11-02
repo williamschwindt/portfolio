@@ -336,10 +336,6 @@ header h3 a {
     color: #fff;
 }
 
-#weather-app {
-    background-color: #3532cb;
-}
-
 #droom {
     background-color: #7851A9;
 }
@@ -373,8 +369,6 @@ header h3 a {
 
 #conway:hover .project-name,
 #conway:hover .view-project,
-#weather-app:hover .project-name,
-#weather-app:hover .view-project,
 #droom:hover .project-name,
 #droom:hover .view-project,
 #omnifood:hover .project-name,
