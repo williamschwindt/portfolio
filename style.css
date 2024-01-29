@@ -234,6 +234,10 @@ header h3 a {
     margin-bottom: 20px;
 }
 
+.about-me-info a {
+    color: #A3A2FF; 
+}
+
 .about-me-contact {
     display: flex;
 }
